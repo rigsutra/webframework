@@ -1,0 +1,27 @@
+{
+  "name": "fastexpress",
+  "version": "1.0.0",
+  "description": "Building Express from scratch",
+  "main": "dist/framework.js",
+  "scripts": {
+    "dev": "tsx watch examples/app.ts",
+    "build": "tsc",
+    "start": "node dist/examples/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rigsutra/webframework.git"
+  },
+  "keywords": [
+    "framework",
+    "express",
+    "learning"
+  ],
+  "author": "Ashish Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.39",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
